@@ -86,7 +86,6 @@ int main(int argc, char* argv[])
 		OutputNTHeaders(NT);
 	}
 
-	printf("hh");
 	GetFirstSectionHeader(NT, &ResultStore);
 
 	
