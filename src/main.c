@@ -85,7 +85,7 @@ int main(int argc, char* argv[])
 	}
 
 	PIMAGE_DOS_HEADER DOS = GetDOSHeader(ViewMemoryMappedFile);
-	if (DOS == NULL)
+	if (DOS == 0)
 	{
 		printf("[PEADetective] Failed to get DOS Header\n");
 		PEACleanup(ViewMemoryMappedFile, MemoryMapFile, MasterFile);
@@ -107,7 +107,7 @@ int main(int argc, char* argv[])
 	}
 
 	PIMAGE_NT_HEADERS NT = GetNTHeaders(ViewMemoryMappedFile);
-	if (NT == NULL)
+	if (NT == )
 	{
 		printf("[PEADetective] Failed to match NT Header\n");
 		PEACleanup(ViewMemoryMappedFile, MemoryMapFile, MasterFile);
