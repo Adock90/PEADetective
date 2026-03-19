@@ -31,7 +31,7 @@ PIMAGE_NT_HEADERS GetNTHeaders(LPVOID MappedFile)
 	}
 	else
 	{
-		PIMAGE_NT_HEADERS NTHeader = (PIMAGE_NT_HEADERS)((u_char*)DOS + DOS->e_lfanew);
+		PIMAGE_NT_HEADERS NTHeader = (PIMAGE_NT_HEADERS)((UCHAR*)DOS + DOS->e_lfanew);
 		if (!VerifyNTSignature(NTHeader))
 		{
 			printf("[PEADetective] NT Signature Not Matched: (PE)\n");
