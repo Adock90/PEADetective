@@ -19,19 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DOSParse.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="NTParse.c" />
-    <ClCompile Include="PEAParse.c" />
-    <ClCompile Include="PEAUtil.c" />
-    <ClCompile Include="SectionParse.c" />
+    <ClCompile Include="src/DOSParse.c" />
+    <ClCompile Include="src/main.c" />
+    <ClCompile Include="src/NTParse.c" />
+    <ClCompile Include="src/PEAParse.c" />
+    <ClCompile Include="src/PEAUtil.c" />
+    <ClCompile Include="src/SectionParse.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DOSParse.h" />
-    <ClInclude Include="NTParse.h" />
-    <ClInclude Include="PEAParse.h" />
-    <ClInclude Include="PEAUtil.h" />
-    <ClInclude Include="SectionParse.h" />
+    <ClInclude Include="src/DOSParse.h" />
+    <ClInclude Include="src/NTParse.h" />
+    <ClInclude Include="src/PEAParse.h" />
+    <ClInclude Include="src/PEAUtil.h" />
+    <ClInclude Include="src/SectionParse.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
