@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="src/main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PEAParse.c">
+    <ClCompile Include="src/PEAParse.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="PEAUtil.c">
+    <ClCompile Include="src/PEAUtil.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="DOSParse.c">
+    <ClCompile Include="src/DOSParse.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="NTParse.c">
+    <ClCompile Include="src/NTParse.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="SectionParse.c">
+    <ClCompile Include="src/SectionParse.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PEAParse.h">
+    <ClInclude Include="src/PEAParse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PEAUtil.h">
+    <ClInclude Include="src/PEAUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DOSParse.h">
+    <ClInclude Include="src/DOSParse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NTParse.h">
+    <ClInclude Include="src/NTParse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SectionParse.h">
+    <ClInclude Include="src/SectionParse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
